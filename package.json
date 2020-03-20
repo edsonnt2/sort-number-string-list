@@ -1,0 +1,16 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:dev": "nodemon build/index.js",
+    "start": "concurrently yarn:start:*"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
